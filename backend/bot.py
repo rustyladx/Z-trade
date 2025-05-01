@@ -1,4 +1,4 @@
-from scanner import scan_market
+from backend import scanner
 
 def generate_trade_signal():
     top_coins = scan_market()
